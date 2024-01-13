@@ -4,7 +4,7 @@
     --color-3: #3BBADB;
 }
 @media only screen and (max-width: 1024px) {
-}
+
 
 
 h1 {
@@ -201,3 +201,4 @@ footer {
             width: 50%; 
             padding: 10px;
         }
+}
