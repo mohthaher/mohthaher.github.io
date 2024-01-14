@@ -212,15 +212,14 @@ footer {
 @media only screen and (max-width: 768px) {
     .c {
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: left;
         text-align: left;
-        padding: 10px; /* Add padding for spacing */
+        padding: 10px; 
     }
 
     .co {
-        margin-left: 10px; /* Add left margin for spacing */
-        text-align: center;
+        margin-left: 10px; 
     }
 
     .with-image img {
