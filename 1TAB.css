@@ -192,7 +192,7 @@ footer {
         }
 @media only screen and (max-width: 768px) {
     .c {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         text-align: center;
     }
