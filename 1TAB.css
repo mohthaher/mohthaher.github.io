@@ -209,7 +209,7 @@ footer {
             width: 50%; 
             padding: 10px;
         }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .c {
         flex-direction: row;
         justify-content: flex-end;
@@ -217,15 +217,16 @@ footer {
         text-align: left;
         padding: 10px;
         gap: 1em;
-
     }
 
     .co {
         margin-left: 10px;
+        padding: 10px;
     }
 
     .with-image img {
         margin-left: 0;
+        max-width: 100%;
     }
 
     .flex-item {
@@ -243,12 +244,28 @@ footer {
     .icon-link1 {
         order: -1;
     }
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 0.5px;
-    background-color: var(--color-3);
-    color: white;
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        background-color: var(--color-3);
+        color: white;
+    }
+
+    .text {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .paragraph {
+        padding: 5px;
+    }
 }
+
