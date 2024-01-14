@@ -190,3 +190,30 @@ footer {
             width: 50%; 
             padding: 10px;
         }
+@media only screen and (max-width: 768px) {
+    .c {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .co {
+        margin-left: 0;
+    }
+
+    .with-image img {
+        margin-left: 0;
+    }
+
+    .flex-item {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .bu,
+    .bu2,
+    .hi {
+        padding: 7px 10px; 
+        font-size: 14px;
+    }
+}
